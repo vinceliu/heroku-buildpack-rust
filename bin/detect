@@ -1,0 +1,8 @@
+#!/bin/bash
+
+[[ -f "$1/Cargo.toml" ]] && {
+  echo "Rust"
+  exit 0
+}
+
+exit 1
